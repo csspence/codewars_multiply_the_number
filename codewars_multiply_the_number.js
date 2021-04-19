@@ -8,6 +8,6 @@ multiply(0)==0
 multiply(-3)==-15
 */
 
-function multiply(number){
-  //your code here
+const multiply = (number) => {
+  return number * Math.pow(5, Math.abs(number).toString().length);
 }
